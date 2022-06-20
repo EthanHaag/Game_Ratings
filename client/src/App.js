@@ -6,7 +6,6 @@ import Home from './components/Home';
 import CreateUser from './components/CreateUser';
 import GameDetails from './components/GameDetails';
 import UserLogin from './components/UserLogin';
-import Profile from './components/Profile';
 import Reviews from './components/Reviews';
 import NewReview from './components/NewReview';
 import UpdateReview from './components/UpdateReview';
@@ -23,7 +22,6 @@ function App() {
           <Route element={<CreateUser setLoginUser={setLoginUser}/>} path="/CreateUser/"/>
           <Route element={<UserLogin setLoginUser={setLoginUser}/>} path="/UserLogin/"/>
           <Route element={<GameDetails/>} path="/game/:name"/>
-          <Route element={<Profile/>} path="/Profiles/:userName"/>
           <Route path="/game/:name/updateReview/:id" element={<UpdateReview/>}/>
           <Route path="/game/:name/newReview" element = {<NewReview/>}/>
           <Route path="*" element={<NotFound/>}/>
