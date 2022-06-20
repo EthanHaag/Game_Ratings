@@ -1,0 +1,170 @@
+html{
+  background-color: #0b1f2b;
+}
+.Header{
+  background-color: #0b1f2b;
+  color: #cde7f7;
+  padding: 1% 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid 2px black;
+}
+.Header-component{
+  font-size: 1.5em;
+  display: flex;
+}
+.Header-component *{
+  margin: 10px;
+  color:#cde7f7;
+  text-decoration: none;
+}
+.logoutBtn{
+  background-color: #1b3545 ;
+  color:#cde7f7;
+  border: solid 2px black;
+}
+.Home-Container{
+  background-size:100%;
+  background-color: #0b1f2b;
+  color: #cde7f7;
+  padding: 1% 15%;
+}
+.Home-Main{
+  width: fit-content;
+  margin: auto;
+}
+.searchBar{
+  border-radius: 25px;
+  width: 500px;
+}
+.searchBtn{
+  border-radius: 25px;
+}
+.RandomBtn{
+  margin: 10px;
+  border-radius: 25px;
+}
+.SearchResults{
+  background-color: #1b3545;
+  border-radius: 25px;
+  border: solid 2px black;
+  padding: 1% 5% 5% 5%;
+  width:fit-content;
+  margin:auto;
+}
+.Result-style{
+  color:#cde7f7;
+  text-decoration: none;
+}
+.Random-page img, .Random-Link{
+  margin: 1%;
+}
+.GamePage{
+  background-color:#0b1f2b;
+  color: #cde7f7;
+  padding: 1% 15%;
+}
+.GamePage * {
+  text-decoration: none;
+  color:#cde7f7;
+  width:fit-content;
+  margin: 15px auto;
+}
+.Game-Desc{
+  width: 50%;
+}
+.game-img{
+  display:block;
+}
+.Reviews-Page{
+  background-color: #0b1f2b;
+  color: #cde7f7;
+  padding: 1% 15%;
+}
+.loginuser-review{
+  background-color: #1a6391;
+  border-radius: 25px;
+  border: solid 2px black;
+  padding: 1% 5% 5% 5%;
+  width:fit-content;
+  margin: 5% auto;
+}
+.loginuserBtn{
+  background-color: #052538;
+  border-radius: 25px;
+  color:#cde7f7;
+  margin: 4%
+}
+.midpageTitle{
+  width:fit-content;
+  margin:auto;
+}
+.reviews{
+  background-color: #1a6391;
+  border-radius: 25px;
+  border: solid 2px black;
+  padding: 1% 5% 5% 5%;
+  width:40%;
+  margin: 5% auto;
+}
+.Links{
+  text-decoration: none;
+  color:#cde7f7;
+}
+.reviewsTop{
+  display: flex;
+  justify-content: space-between;
+}
+.reviewsMainTitle{
+  padding: 1%;
+  margin-right: 5%;
+}
+.notFound{
+  background-color:#0b1f2b;
+  color: #cde7f7;
+}
+.notFoundContent{
+  width: fit-content;
+  margin: auto;
+}
+.login-page{
+  background-color: #0b1f2b;
+  color:#cde7f7;
+}
+.login-form{
+  background-color: #1a6391;
+  padding: 1% 5% 5% 5%;
+  border: solid 2px black;
+  border-radius: 25px;
+  display:flex;
+  flex-direction: column;
+  width: fit-content;
+  margin: auto;
+}
+.Link-login{
+  text-decoration: none;
+  color:#cde7f7;
+  font-size: 2em;
+}
+.login-div{
+  width: fit-content;
+  margin:auto;
+}
+.login-form *{
+  margin:5% 0px ;
+}
+.loginBtn{
+  background-color: #052538;
+  border-radius: 25px;
+  color:#cde7f7;
+}
+.errors{
+  color:red;
+}
+.Link-review{
+  text-decoration: none;
+  color:#cde7f7;
+  font-size: 2em;
+  padding: 5%
+}
