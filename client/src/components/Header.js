@@ -28,11 +28,10 @@ const Header = ({loginUser,setLoginUser}) => {
     return (
         <header>
             <div className='Header'>
-                <h1>Games Rating</h1>
+                <h1>Game Rating</h1>
                 {user?
                     <div className='Header-component'>
                         <h3>Hello, {user.userName}</h3>
-                        <NavLink to={'/Profiles/'+user.userName}>Profile</NavLink>
                         <button className='logoutBtn' onClick={handleLogout}>Logout</button>
                     </div>
                     :
